@@ -49,20 +49,26 @@
     <div class="card">
       <h1>Privacy Policy</h1>
       <p class="meta"><strong>App:</strong> La Complessita del Calcio<br>
-      <strong>Data di efficacia:</strong> 15 aprile 2026</p>
+      <strong>Data di efficacia:</strong> 19 giugno 2026</p>
 
       <p>La presente Privacy Policy descrive come viene gestita la privacy degli utenti dell'app <strong>La Complessita del Calcio</strong> ("App"), sviluppata da uno sviluppatore individuale con sede in Italia ("Sviluppatore", "noi").</p>
-      <p>L'App e una WebView del sito ufficiale <a href="https://www.filippogalli.com/">https://www.filippogalli.com/</a>, blog curato da <strong>Filippo Galli</strong>.</p>
+      <p>L'App consente di consultare il sito ufficiale <a href="https://www.filippogalli.com/">https://www.filippogalli.com/</a>, blog curato da <strong>Filippo Galli</strong>, e include sezioni informative dedicate a risultati, calendario, campionati, squadre, giocatori, statistiche e Coppa del Mondo.</p>
 
       <h2>1. Titolare e contatti</h2>
       <p>Lo Sviluppatore e un soggetto individuale con sede in Italia.</p>
       <p>Contatto tecnico App: <a href="mailto:max.magnus.dev@gmail.com">max.magnus.dev@gmail.com</a></p>
       <p>Contatto editoriale blog: <a href="mailto:filippogalli1905@gmail.com">filippogalli1905@gmail.com</a> (Filippo Galli)</p>
 
-      <h2>2. Dati raccolti dall'App</h2>
-      <p>In base alla configurazione attuale dell'App, <strong>non raccogliamo direttamente dati personali degli utenti tramite codice nativo o SDK dell'App</strong>.</p>
-      <p>I contenuti visualizzati provengono dal sito www.filippogalli.com. Eventuali dati tecnici trattati dal sito o dal relativo hosting sono disciplinati separatamente dalle policy e configurazioni del sito stesso.</p>
-      <p>In particolare, l'App non raccoglie direttamente:</p>
+      <h2>2. Dati trattati dall'App</h2>
+      <p>L'App non richiede registrazione e non crea un profilo personale identificativo dell'utente. Alcune funzionalita salvano preferenze tecniche e sportive sul dispositivo dell'utente tramite memoria locale dell'App.</p>
+      <p>In particolare, l'App puo salvare localmente:</p>
+      <ul>
+        <li>campionati, squadre e giocatori contrassegnati come preferiti</li>
+        <li>preferenza del tema grafico, chiaro o scuro</li>
+        <li>dati temporanei di cache per migliorare il caricamento di risultati, calendario, competizioni e Coppa del Mondo</li>
+      </ul>
+      <p>Queste informazioni restano normalmente sul dispositivo e possono essere rimosse cancellando i dati dell'App o disinstallando l'App.</p>
+      <p>In base alla configurazione attuale, l'App non raccoglie direttamente:</p>
       <ul>
         <li>nome e cognome</li>
         <li>indirizzo email</li>
@@ -76,7 +82,22 @@
         <li>dati di utilizzo per analisi statistiche tramite SDK integrati nell'App</li>
       </ul>
 
-      <h2>3. Analytics, profilazione e pubblicita</h2>
+      <h2>3. Funzionalita calcio, ricerca e dati sportivi</h2>
+      <p>Le sezioni dedicate al calcio mostrano dati sportivi quali partite, risultati, calendari, classifiche, statistiche, formazioni, infortuni, quote, pronostici, squadre e giocatori.</p>
+      <p>Per fornire queste funzionalita, l'App invia richieste tecniche a una funzione backend Supabase configurata dallo Sviluppatore. Le richieste possono includere parametri non identificativi scelti dall'utente o necessari alla navigazione, ad esempio ID di campionato, squadra, giocatore o partita, stagione, data, scheda selezionata e testo digitato nella ricerca di campionati, squadre o giocatori.</p>
+      <p>Il backend usa tali parametri per interrogare servizi di dati calcistici di terze parti e restituire le informazioni richieste all'App. Il backend puo inoltre proxyare immagini sportive, come loghi di squadre, competizioni e foto giocatori, per consentirne la visualizzazione nell'App.</p>
+      <p>Queste funzionalita non sono pensate per identificare l'utente e non richiedono nome, email, account o credenziali personali.</p>
+
+      <h2>4. WebView, sito e link esterni</h2>
+      <p>La sezione blog dell'App visualizza pagine del sito www.filippogalli.com tramite WebView. Eventuali dati tecnici, cookie o tecnologie simili trattati dal sito o dal relativo hosting sono disciplinati dalle policy e configurazioni del sito stesso.</p>
+      <p>L'App puo aprire link esterni, inclusi Instagram, Gmail o il client email del dispositivo, e pagine di partner o siti terzi. Quando l'utente apre tali servizi, il trattamento dei dati e regolato dalle informative privacy dei rispettivi fornitori.</p>
+
+      <h2>5. Backend, fornitori e destinatari tecnici</h2>
+      <p>Per il funzionamento delle funzionalita calcio, l'App utilizza Supabase come infrastruttura backend. Le richieste verso il backend possono comportare il trattamento di dati tecnici di rete normalmente necessari alla comunicazione internet, come indirizzo IP, informazioni di richiesta, log tecnici e timestamp, secondo le impostazioni dei fornitori coinvolti.</p>
+      <p>I dati sportivi sono forniti da servizi terzi specializzati in dati calcistici. Tali servizi possono ricevere dal backend parametri relativi alla richiesta sportiva, come ID partita, ID squadra, ID giocatore, campionato, stagione o ricerca digitata.</p>
+      <p>Non vendiamo dati personali degli utenti e non condividiamo dati personali con terzi per finalita pubblicitarie.</p>
+
+      <h2>6. Analytics, profilazione e pubblicita</h2>
       <p>L'App non utilizza strumenti di analytics, advertising, remarketing, profilazione o tracciamento integrati a livello nativo.</p>
       <p>Non utilizziamo, a titolo esemplificativo:</p>
       <ul>
@@ -86,7 +107,7 @@
         <li>strumenti di tracciamento cross-app</li>
       </ul>
 
-      <h2>4. Account, acquisti e comunicazioni</h2>
+      <h2>7. Account, acquisti e comunicazioni</h2>
       <p>L'App non consente agli utenti di:</p>
       <ul>
         <li>creare un account</li>
@@ -95,38 +116,41 @@
       </ul>
       <p>Non inviamo email marketing o comunicazioni automatiche agli utenti tramite l'App.</p>
 
-      <h2>5. Minori</h2>
+      <h2>8. Minori</h2>
       <p>Non raccogliamo consapevolmente dati personali di minori di 13 anni tramite l'App.</p>
 
-      <h2>6. Condivisione dei dati</h2>
-      <p>Poiche non raccogliamo dati personali tramite l'App, non vendiamo, condividiamo o trasferiamo dati personali a terzi per finalita commerciali, pubblicitarie o analitiche dal lato App.</p>
+      <h2>9. Base giuridica</h2>
+      <p>Quando applicabile, il trattamento dei dati tecnici necessari al funzionamento dell'App e dei servizi richiesti dall'utente si basa sull'esecuzione del servizio richiesto e/o sul legittimo interesse a garantire sicurezza, funzionamento, manutenzione e miglioramento tecnico dell'App.</p>
+      <p>Le preferenze locali, come tema e preferiti, sono salvate per fornire le funzionalita richieste dall'utente.</p>
 
-      <h2>7. Conservazione dei dati</h2>
-      <p>Poiche non raccogliamo dati personali tramite l'App, non conserviamo dati personali degli utenti raccolti attraverso l'App.</p>
+      <h2>10. Conservazione dei dati</h2>
+      <p>Preferiti, tema e cache tecnica restano sul dispositivo fino a cancellazione dei dati dell'App, disinstallazione o sovrascrittura automatica della cache.</p>
+      <p>Eventuali log tecnici trattati da backend, hosting, store o fornitori terzi sono conservati secondo le rispettive policy e impostazioni operative.</p>
 
-      <h2>8. Sicurezza</h2>
+      <h2>11. Sicurezza</h2>
       <p>Adottiamo misure ragionevoli per proteggere l'App e i relativi servizi. Tuttavia, nessun sistema e completamente sicuro e non possiamo garantire la sicurezza assoluta.</p>
 
-      <h2>9. Piattaforme terze</h2>
+      <h2>12. Piattaforme terze</h2>
       <p>L'App puo essere distribuita tramite Google Play Store o Apple App Store. Tali piattaforme possono trattare dati secondo le rispettive informative privacy, indipendenti dalla presente Privacy Policy.</p>
 
-      <h2>10. Diritti degli utenti</h2>
+      <h2>13. Diritti degli utenti</h2>
       <p>Se applicabili, gli utenti possono avere diritti ai sensi del GDPR, del CCPA/CPRA e di altre normative locali, inclusi diritti di accesso, rettifica, cancellazione o richiesta di informazioni sul trattamento dei dati.</p>
-      <p>Poiche l'App non raccoglie dati personali, tali diritti potrebbero non trovare applicazione concreta, salvo i dati eventualmente forniti volontariamente via email.</p>
+      <p>Poiche l'App non richiede account e non identifica direttamente l'utente, alcuni diritti potrebbero non trovare applicazione concreta, salvo i dati eventualmente forniti volontariamente via email o dati tecnici eventualmente presenti presso fornitori terzi.</p>
 
-      <h2>11. GDPR</h2>
+      <h2>14. GDPR</h2>
       <p>Per gli utenti nello Spazio Economico Europeo, nel Regno Unito o in Svizzera, possono applicarsi i diritti previsti dalla normativa sulla protezione dei dati personali. Per qualsiasi richiesta, e possibile contattarci via email.</p>
+      <p>Gli utenti hanno inoltre il diritto di proporre reclamo all'autorita di controllo competente, inclusa l'Autorita Garante per la protezione dei dati personali in Italia, ove applicabile.</p>
 
-      <h2>12. California Privacy Notice</h2>
-      <p>Se sei residente in California, potresti avere diritti ai sensi del California Consumer Privacy Act (come modificato dal CPRA). Attualmente non raccogliamo, non vendiamo e non condividiamo dati personali tramite l'App.</p>
+      <h2>15. California Privacy Notice</h2>
+      <p>Se sei residente in California, potresti avere diritti ai sensi del California Consumer Privacy Act (come modificato dal CPRA). Attualmente non vendiamo e non condividiamo dati personali tramite l'App per finalita di pubblicita comportamentale cross-context.</p>
 
-      <h2>13. Do Not Track / CalOPPA</h2>
+      <h2>16. Do Not Track / CalOPPA</h2>
       <p>Poiche l'App non traccia gli utenti su siti o app di terzi, i segnali "Do Not Track" non modificano il funzionamento dell'App.</p>
 
-      <h2>14. Modifiche</h2>
+      <h2>17. Modifiche</h2>
       <p>Potremmo aggiornare questa Privacy Policy nel tempo. In caso di modifiche, aggiorneremo la data di efficacia riportata in alto.</p>
 
-      <h2>15. Contatti</h2>
+      <h2>18. Contatti</h2>
       <p>Per domande tecniche sulla presente Privacy Policy relative all'App:</p>
       <p><a href="mailto:max.magnus.dev@gmail.com">max.magnus.dev@gmail.com</a> (sviluppatore)</p>
       <p>Per richieste relative ai contenuti editoriali del blog:</p>
